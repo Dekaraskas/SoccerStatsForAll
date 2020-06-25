@@ -10,7 +10,7 @@
     ' Napis tytułowy, który wyświetla nazwę aktualnie otwartej bazy danych oraz jej ściężkę w strukturze plików
 
     Public Shared MenuLabel As New Label With {.Text = "Home", .AutoSize = False, .Dock = DockStyle.Top, .TextAlign = ContentAlignment.TopCenter} ' Napis z wybranym menu
-    ' Poniżej TitleLabel znajduje się napis, który zawiera aktualnie wyświetlane menu
+    ' Poniżej TitleLabel znajduje się napis, który zawiera aktualnie wyświetlane menu. Przy starcie programu jest to "Home"
 
     Public Shared GB As New List(Of GroupBox) ' Kolekcja list GB
     ' Kolekcja GroupBoxów, która zawiera te kontrolki wyświetlane dla każdego menu

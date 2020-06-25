@@ -11,5 +11,11 @@
             .Font = New Font("Segoe UI", 9)
 
         End With
+
+
+        ' Wywołanie metody, która wykonuje podstawowe zadania podczas startu programu
+        InitializeMainWindow.ActionsWhenStart()
+
+
     End Sub
 End Class
