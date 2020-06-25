@@ -7,4 +7,5 @@
     Public Shared GB As New List(Of GroupBox) ' Kolekcja list GB
     Public Shared FlowForGB As New FlowLayoutPanel With {.Location = New Point(150, 40), .Size = New Size(1100, 700)} ' Flowlayoutpanel dla GB
 
+    ' Powyższe kontrolki określają podstawowy interfejs użytkownika
 End Class
