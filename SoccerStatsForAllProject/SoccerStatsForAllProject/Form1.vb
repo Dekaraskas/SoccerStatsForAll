@@ -2,9 +2,8 @@
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
-
+        ' Ustawienie wyglądu okna głównego
         With Me
-
             .Text = "Simple Stats"
             .BackColor = Color.DarkGreen
             .ForeColor = Color.White
