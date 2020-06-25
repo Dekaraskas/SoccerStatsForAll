@@ -4,7 +4,7 @@
 
         ' Ustawienie wyglądu okna głównego
         With Me
-            .Text = "Simple Stats"
+            .Text = "Soccer Stats For All"
             .BackColor = Color.DarkGreen
             .ForeColor = Color.White
             .WindowState = FormWindowState.Maximized
