@@ -1,0 +1,2 @@
+# SoccerStatsForAll
+Soccer statistics application
