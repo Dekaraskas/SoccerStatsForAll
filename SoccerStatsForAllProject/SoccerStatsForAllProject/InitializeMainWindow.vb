@@ -11,9 +11,12 @@
         ' Dodanie do okna głównego FlowMenuButtons
         Form1.Controls.Add(AllControls.FlowMenuButtons)
 
+        ' Wyświetlenie napisu z nazwą otwartego menu pod napisem tytułowym
+        Form1.Controls.Add(AllControls.MenuLabel)
 
         ' Wyświetlenie napisu tytułowego zawierającego aktualnie otwartą bazę danych
         Form1.Controls.Add(AllControls.TitleLabel)
 
+        
     End Sub
 End Class
