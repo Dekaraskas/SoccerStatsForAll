@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="AllControls.vb" />
     <Compile Include="AllEvents.vb" />
+    <Compile Include="Collections.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +117,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SimpleData.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
