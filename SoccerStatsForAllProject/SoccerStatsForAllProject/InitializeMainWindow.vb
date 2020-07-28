@@ -19,5 +19,10 @@
 
         ' Dodanie do okna głównego FlowForGB, który trzyma GroupBoxy z danymi
         Form1.Controls.Add(AllControls.FlowForGB)
+
+        ' Wywołanie zdarzeń dla przycisków menu
+        AllEvents.MenuButtonsEventsClass()
+
+
     End Sub
 End Class
