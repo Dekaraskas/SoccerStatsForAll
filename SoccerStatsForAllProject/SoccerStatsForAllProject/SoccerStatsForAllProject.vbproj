@@ -100,7 +100,6 @@
     <Compile Include="Menus\Home\InitializeHome.vb" />
     <Compile Include="InitializeMainWindow.vb" />
     <Compile Include="MenuButtons.vb" />
-    <Compile Include="MenuButtonsEvents\Home.vb" />
     <Compile Include="MiscMethods.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

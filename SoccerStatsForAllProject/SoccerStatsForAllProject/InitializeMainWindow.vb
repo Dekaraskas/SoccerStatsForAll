@@ -31,6 +31,11 @@ Public Class InitializeMainWindow ' Ta klasa jest uruchamiana przy starcie progr
         ' Wyświetlenie GB na ekranie
         MiscMethods.ShowingGB()
 
+        ' Przy starcie programu wyświetla się menu Home
+        InitializeHome.Load()
+
+        ' Przycisk Home zaznaczamy na czerwono
+        AllControls.MenuButtons(0).ForeColor = Color.Red
 
 
 

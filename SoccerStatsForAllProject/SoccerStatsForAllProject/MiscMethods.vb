@@ -28,7 +28,7 @@ Public Class MiscMethods ' Klasa trzymająca różne metody
             With AllControls.GB(x)
                 .BackColor = Color.DarkGreen
                 .ForeColor = Color.White
-                .Size = New Size(400, 200)
+                .Size = New Size(540, 200)
 
 
             End With
