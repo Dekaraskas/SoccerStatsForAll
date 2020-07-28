@@ -24,6 +24,15 @@ Public Class InitializeMainWindow ' Ta klasa jest uruchamiana przy starcie progr
         ' Ustawienie zdarzeń dla przycisków menu
         AllEvents.MenuButtonsEventsClass()
 
+        ' Ustawienie wspólnych cech GB
+        MiscMethods.CommonGB()
+
+
+        ' Wyświetlenie GB na ekranie
+        MiscMethods.ShowingGB()
+
+
+
 
     End Sub
 End Class
