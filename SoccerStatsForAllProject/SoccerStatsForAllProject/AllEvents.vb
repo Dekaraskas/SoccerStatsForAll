@@ -14,6 +14,20 @@ Public Class AllEvents ' Ta klasa przechowuje wywołania wszelkich zdarzeń w pr
     Private Shared Sub MenuButtonClicked(sender As Object, e As EventArgs) ' Wykonuje zdarzenie kliknięcia danego przycisku menu
 
         Dim WhichButton As Button = sender ' Ktory przycisk zostal klikniety
-        MessageBox.Show(WhichButton.Text)
+
+        MiscMethods.ClearMenuButtons() ' Odznacza wszystkie przyciski
+
+
+
+
+
+
+        WhichButton.ForeColor = Color.Red ' Ustawienie koloru przycisku, ktory zostal klikniety
+        AllControls.MenuLabel.Text = WhichButton.Text ' Zmienia MenuLabel na wybrane menu
+
+        If WhichButton.Text = "Home" Then
+            InitializeHome.Load() ' Przejście do czynności wyświetlenia menu Home
+
+        End If
     End Sub
 End Class
