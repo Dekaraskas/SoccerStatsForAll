@@ -17,6 +17,7 @@
         ' Wyświetlenie napisu tytułowego zawierającego aktualnie otwartą bazę danych
         Form1.Controls.Add(AllControls.TitleLabel)
 
-        
+        ' Dodanie do okna głównego FlowForGB, który trzyma GroupBoxy z danymi
+        Form1.Controls.Add(AllControls.FlowForGB)
     End Sub
 End Class
