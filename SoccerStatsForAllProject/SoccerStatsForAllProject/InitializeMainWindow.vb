@@ -21,7 +21,7 @@ Public Class InitializeMainWindow ' Ta klasa jest uruchamiana przy starcie progr
         ' Dodanie do okna głównego FlowForGB, który trzyma GroupBoxy z danymi
         Form1.Controls.Add(AllControls.FlowForGB)
 
-        ' Wywołanie zdarzeń dla przycisków menu
+        ' Ustawienie zdarzeń dla przycisków menu
         AllEvents.MenuButtonsEventsClass()
 
 
