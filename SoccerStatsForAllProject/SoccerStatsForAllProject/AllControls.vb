@@ -1,4 +1,5 @@
-﻿Public Class AllControls ' Klasa trzymająca wszystkie kontrolki w programie
+﻿' Wersja pliku: 1
+Public Class AllControls ' Klasa trzymająca wszystkie kontrolki w programie
 
     Public Shared FlowMenuButtons As New FlowLayoutPanel With {.Location = New Point(10, 10), .Size = New Size(140, 400)} ' Flowlayoutpanel dla przyciskow menu
     ' FlowMenuButtons trzyma wszystkie przyciski menu w celu ich grupowania, porządkowania i estetycznego wyświetlania

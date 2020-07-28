@@ -1,4 +1,5 @@
-﻿Public Class InitializeMainWindow ' Ta klasa jest uruchamiana przy starcie programu
+﻿' Wersja pliku: 1
+Public Class InitializeMainWindow ' Ta klasa jest uruchamiana przy starcie programu
     Public Shared Sub ActionsWhenStart()
 
 

@@ -1,4 +1,5 @@
-﻿Public Class MenuButtons ' Ta klasa zawiera metody, które służą do pracy z przyciskami menu
+﻿' Wersja pliku: 1
+Public Class MenuButtons ' Ta klasa zawiera metody, które służą do pracy z przyciskami menu
 
 
     Public Shared Sub CreateMenuButtons()
