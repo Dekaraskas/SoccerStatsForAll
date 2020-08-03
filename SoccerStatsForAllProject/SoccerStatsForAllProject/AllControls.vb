@@ -20,4 +20,7 @@ Public Class AllControls ' Klasa trzymająca wszystkie kontrolki w programie
     Public Shared FlowForGB As New FlowLayoutPanel With {.Location = New Point(150, 40), .Size = New Size(1100, 700)} ' Flowlayoutpanel dla GB
     ' FlowForGB zawiera powyższe GroupBoxy i wyświetla je na ekranie
     ' Powyższe kontrolki określają podstawowy interfejs użytkownika
+
+
+
 End Class

@@ -7,7 +7,8 @@ Public Class InitializeMainWindow ' Ta klasa jest uruchamiana przy starcie progr
         ' Stworzenie przycisków i dodanie ich do FlowMenuButtons w oknie głównym
         MenuButtons.CreateMenuButtons()
 
-
+        ' Wczytanie przykładowych danych
+        SimpleData.Load()
 
         ' Dodanie do okna głównego FlowMenuButtons
         Form1.Controls.Add(AllControls.FlowMenuButtons)

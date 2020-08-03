@@ -47,4 +47,35 @@ Public Class MiscMethods ' Klasa trzymająca różne metody
         Next
 
     End Sub
+
+    Public Shared Sub SetAppearanceOfComboBox(CB As ComboBox) ' Standardowy wygląd ComboBox
+
+        With CB
+
+            .BackColor = Color.Black
+            .ForeColor = Color.Yellow
+        End With
+
+    End Sub
+
+
+    Public Shared Sub SetAppearanceofListView(LV As ListView) ' Standardowy wygląd ListView
+
+        With LV
+
+            .MultiSelect = False
+            .FullRowSelect = True
+            .View = View.Details
+            .Dock = DockStyle.Fill
+            .BackColor = Color.DarkGreen
+            .ForeColor = Color.Yellow
+
+        End With
+
+        For x As Integer = 0 To LV.Columns.Count - 1
+
+            LV.Columns(x).AutoResize(ColumnHeaderAutoResizeStyle.ColumnContent)
+        Next
+
+    End Sub
 End Class

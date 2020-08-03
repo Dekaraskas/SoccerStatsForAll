@@ -29,5 +29,10 @@ Public Class AllEvents ' Ta klasa przechowuje wywołania wszelkich zdarzeń w pr
             InitializeHome.Load() ' Przejście do czynności wyświetlenia menu Home
 
         End If
+
+
+        If WhichButton.Text = "Teams" Then
+            InitializeTeams.Load() ' Przejście do czynności wyświetlania menu Teams
+        End If
     End Sub
 End Class
